@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+.hero p{
+color: black;
+}
+h1,h2{
+    padding: 5px;
+    color: green;
+}
+p{
+    padding: 2rem;
+    
+}
+.sociallinks a{
+    text-decoration: none;
+}
+body{
+    width: 100%;
+}
+.hero{
+    position: relative;
+   
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.hero h1{
+    position: absolute;
+}
+.hero article{
+    position: absolute;
+}
+article img{
+    float:right;
+}
+
+article{
+    background-color: olive;
+}
