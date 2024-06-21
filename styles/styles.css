@@ -1,24 +1,36 @@
-main{
+main {
     max-width: 840px;
 }
-aside{
+
+aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px;
+    border: 1px solid; /* Make sure to specify 'solid', 'dotted', etc. */
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
 }
-aside img{
+
+aside img {
     width: 150px;
     height: auto;
 }
-p{
+
+p {
     padding: 0px;
 }
-footer{
+
+footer {
     margin-top: 15px;
     border-top: 1px solid;
     text-align: center;
+}
+
+/* Added the CSS rule for images within the main tag */
+main img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
