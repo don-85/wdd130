@@ -1,36 +1,66 @@
+/* Rule for the main content area */
 main {
     max-width: 840px;
 }
 
+/* Rule for the aside section */
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid; /* Make sure to specify 'solid', 'dotted', etc. */
+    border: 1px solid; /* Specific style set to solid */
     padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
 }
 
+/* Rule for images within the aside section */
 aside img {
     width: 150px;
     height: auto;
 }
 
+/* Rule for paragraphs */
 p {
     padding: 0px;
 }
 
+/* Rule for the footer section */
 footer {
     margin-top: 15px;
     border-top: 1px solid;
     text-align: center;
 }
 
-/* Added the CSS rule for images within the main tag */
+/* Rule for images within the main tag */
 main img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+}
+
+/* Rule for the navigation bar */
+nav {
+    background-color: #f8f9fa; /* Light grey background */
+    padding: 0.5rem 1rem; /* Padding around the nav */
+}
+
+/* Rule for navigation links */
+nav a {
+    color: #007bff; /* Bootstrap primary link color */
+    text-decoration: none; /* No underline */
+    padding: 0.5rem 1rem; /* Padding around links */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+    color: #0056b3; /* Darker shade of blue on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Rule for the main heading */
+h1 {
+    color: #333; /* Dark grey text */
+    text-align: center; /* Center-aligned */
 }
