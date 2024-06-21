@@ -20,9 +20,13 @@ aside img {
     height: auto;
 }
 
-/* Rule for paragraphs */
+/* Enhanced Rule for paragraphs */
 p {
-    padding: 0px;
+    padding: 10px; /* Padding for better spacing */
+    font-size: 16px; /* Standard readable font size */
+    line-height: 1.6; /* Optimal line height for readability */
+    color: #333; /* Dark grey color for better contrast */
+    margin-bottom: 15px; /* Spacing between paragraphs */
 }
 
 /* Rule for the footer section */
