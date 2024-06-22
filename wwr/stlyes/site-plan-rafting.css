@@ -1,69 +1,123 @@
-/* styles.css */
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+footer h1{
+text-align: center;
 
-header nav {
-    background: #004e98;
-    color: white;
-    display: flex;
-    padding: 10px;
-    align-items: center;
 }
-
-header nav img {
-    width: 100px;
-}
-
-header nav a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    margin-left: 20px;
-}
-
-.hero {
-    position: relative;
-    height: 70vh;
-}
-
-.hero img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.hero-text {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    color: white;
-    background: rgba(0, 0, 0, 0.5);
+body{
+    font-family: var(--paragraph-font);
+    max-width:100%;
     padding: 20px;
-}
+    background-image: url(images/p1.jpg);
 
-.info {
-    background: #f0ead2;
+}
+:root{
+    --primary-color: #dee2e6;
+    --seconmdary-color:#eddea4;
+    --accent1-color:#f7a072;
+    --accent1-color:#f0ead2;
+    --heading-font:#'-',serif;
+    --paragraph-font:'-',serif;
+
+    --nav-background-color:#dde5b6;
+    --nav-link-color:#004e98;
+    --nav-hover-link-color:#a8dadc;
+    --nav-hover-background-color:#e0e1dd;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header{
     padding: 20px;
-    text-align: center;
+    background-color: var(--accent1-color);
 }
-
-footer {
-    background: #dde5b6;
-    text-align: center;
-    padding: 10px;
-}
-
-button {
-    background: #f7a072;
+p{
+    padding: 25px;
     color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
 }
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+}
+    nav a {
+        display: ;
+        color: var(--nav-link-color);
+        text-decoration: none;
+        padding: 7rem;
+    }
+    nav a:link, nav a:visited;{
+        color: var(--nav-link-color);
+    }
+    nav a:hover{
+        color: var(--nav-hover-link-color);
+        /* background-color: var(--nav-hover-background-color); */
+    }
+    .images img{
+        width: 340px;
+        height: auto;
+        padding: 40px;
+        border: 5px solid #f7a072;
+        padding: 30px
+        
+    }
+    img{
+        width: 600px;
+        height: auto;
+    }
+    nav img{
+        width: 100px;
+        height: auto;
+    }
+  .container{
+        background-color: var(--seconmdary-color);
+        width: 100%;
+        height: 500px;
+        margin-left: 0;
+        margin-right: 0;
+        position: relative;
+    }
+    .container img{
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .overlay {
+        position: absolute;
+        top: 150px;
+        left: 600px;
+        right: 15px;
+        bottom: 0px;
+        width: 40%;
+        height: 200px;
+        background-color: gray; /* Semi-transparent white background */
+        color:white; /* Text color */
+        display: flex;
+        align-items: center; /* Centers content vertically */
+        justify-content: center; /* Centers content horizontally */
+        text-align: center;
+    }px
+.overlay p{
+    margin-bottom: 0px;
+   padding-top: 2px;
+}
+   b{
+        color: white;
+        font-size: 25px;
+    }
+    footer{
+        margin-bottom: 0px;
+    }
+    .overlay a {
+        display: inline-block;
+        background-color: #f7a072; /* Accent color for the button */
+        color: white; /* White text on the button */
+        padding: 10px 20px; /* Padding inside the button */
+        text-decoration: none; /* Remove underline */
+        font-weight: bold; /* Bold text for emphasis */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s ease; 
+        margin-bottom: 2px;
+    }
 
-button:hover {
-    background-color: #e58e62;
-}
+    .overlay a:hover {
+        background-color: #e58e62; /* Darker shade on hover */
+    }
