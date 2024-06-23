@@ -40,12 +40,12 @@ nav{
     font-size: 1.2rem;
 }
     nav a {
-        display: ;
+        display: 0;
         color: var(--nav-link-color);
         text-decoration: none;
         padding: 7rem;
     }
-    nav a:link, nav a:visited;{
+    nav a:link, nav a:visited{
         color: var(--nav-link-color);
     }
     nav a:hover{
