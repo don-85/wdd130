@@ -9,7 +9,9 @@ body{
     background-attachment: fixed;
 }
 body{
-    background-image: url(images/);
+        background-image: url(images/p5.jpg);
+        background-position: fixed;
+        background-attachment: fixed;
 }
 :root{
     --primary-color: #dee2e6;
