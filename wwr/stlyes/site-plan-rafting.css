@@ -121,3 +121,6 @@ nav{
     .overlay a:hover {
         background-color: #e58e62; /* Darker shade on hover */
     }
+.name{
+    color: white;
+}
