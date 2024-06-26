@@ -41,7 +41,9 @@ nav{
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
 padding: 5px;
-margin-top: 0px
+margin-top: 0px;
+top: 0;
+
 }
 #nav{
     width: 100%;
