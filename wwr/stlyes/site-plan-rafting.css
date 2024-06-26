@@ -52,13 +52,13 @@ top: 0;
     height: 10px;
 }
     nav a {
-        display: ;
         color: white;
         text-decoration: none;
-        padding: 5rem;
+        padding: 7rem;
         margin-top: 4px;
+        position: fixed;
     }
-    nav a:link, nav a:visited;{
+    nav a:link, nav a:visited{
         color: var(--nav-link-color);
     }
     nav a:hover{
