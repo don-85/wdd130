@@ -56,7 +56,7 @@ top: 0;
         text-decoration: none;
         padding: 7rem;
         margin-top: 4px;
-        position: fixed;
+        position: relative;
     }
     nav a:link, nav a:visited{
         color: var(--nav-link-color);
