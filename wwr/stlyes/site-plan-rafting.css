@@ -32,6 +32,7 @@ h1{
 }
 header{
     padding: 20px;
+    text-align: center;
 }
 p{
     padding: 25px;
@@ -54,7 +55,7 @@ top: 0;
         display: ;
         color: white;
         text-decoration: none;
-        padding: 2rem;
+        padding: 5rem;
         margin-top: 4px;
     }
     nav a:link, nav a:visited;{
