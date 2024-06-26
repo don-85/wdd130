@@ -52,9 +52,10 @@ top: 0;
 }
     nav a {
         display: ;
-        color: var(--nav-link-color);
+        color: white;
         text-decoration: none;
         padding: 2rem;
+        margin-top: 4px;
     }
     nav a:link, nav a:visited;{
         color: var(--nav-link-color);
