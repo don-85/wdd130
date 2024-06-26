@@ -43,6 +43,11 @@ nav{
 padding: 5px;
 margin-top: 0px
 }
+#nav{
+    width: 100%;
+    top: 0;
+    height: 10px;
+}
     nav a {
         display: ;
         color: var(--nav-link-color);
