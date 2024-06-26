@@ -136,6 +136,7 @@ nav{
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-align: center;
 }
 
 .book-now-btn:hover {
