@@ -19,6 +19,18 @@ aside img {
     width: 150px;
     height: auto;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.box{
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
 
 /* Enhanced Rule for paragraphs */
 p {
@@ -42,8 +54,11 @@ main img {
     margin: 0 auto;
     max-width: 100%;
     height: auto;
+    float: right;
 }
-
+.aside{
+    position: relative;
+}
 /* Rule for the navigation bar */
 nav {
     background-color: #f8f9fa; /* Light grey background */
