@@ -145,6 +145,7 @@ top: 0;
     }
 .name{
     color: white;
+    float: left;
 }
 .book-now-btn {
     padding: 10px 20px;
