@@ -165,3 +165,6 @@ top: 0;
 .book-now-btn{
     text-align: center;
 }
+.foot p{
+    bottom: 0px;
+}
