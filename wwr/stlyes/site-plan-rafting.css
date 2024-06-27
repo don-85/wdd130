@@ -119,6 +119,12 @@ top: 0;
     }
     footer{
         margin-bottom: 0px;
+
+    }
+    .foot img{
+        float: right;
+        width: 25px;
+        height: auto;
     }
     .overlay a {
         display: inline-block;
