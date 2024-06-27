@@ -77,10 +77,13 @@ top: 0;
     img{
         width: 600px;
         height: auto;
+        display: block;
     }
     nav img{
-        width: 100px;
-        height: auto;
+        width: 100px;      /* Adjust the width as needed */
+        height: 100px;     /* Height should be the same as width to make a perfect circle */
+        border-radius: 50%; /* This makes the element circular */
+        overflow: hidden;
     }
   .container{
         background-color: var(--seconmdary-color);
