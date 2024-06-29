@@ -91,3 +91,7 @@ footer img{
     float: left;
     margin-left: 0px;
 }
+header img{
+    width:100; 
+    height:auto;
+}
