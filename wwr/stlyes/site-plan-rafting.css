@@ -2,9 +2,9 @@
 
 :root {
     --primary-color: #dee2e6;
-    --seconmdary-color: #eddea4;
+    --secondary-color: #eddea4;
     --accent1-color: #212529;
-    --accent1-color: #212529;
+    --accent2-color: ;
     --heading-font: 'Roboto', sans-serif;
     --paragraph-font: 'Roboto', sans-serif;
 
@@ -13,6 +13,7 @@
     --nav-hover-link-color: #a8dadc;
     --nav-hover-background-color: #e0e1dd;
 }
+
 
 footer h1 {
     text-align: center;
