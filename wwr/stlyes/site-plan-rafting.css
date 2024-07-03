@@ -1,152 +1,196 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-footer h1{
-text-align: center;	
+
+:root {
+    --primary-color: #dee2e6;
+    --seconmdary-color: #eddea4;
+    --accent1-color: #212529;
+    --accent1-color: #212529;
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #fb8500;
+    --nav-link-color: #004e98;
+    --nav-hover-link-color: #a8dadc;
+    --nav-hover-background-color: #e0e1dd;
+}
+
+footer h1 {
+    text-align: center;
 
 }
-body{
+
+body {
     font-family: var(--paragraph-font);
-    max-width:100%;
+    max-width: 100%;
     padding: 20px;
     background-image: url(images/p1.jpg);
 
 }
-:root{
-    --primary-color: #dee2e6;
-    --seconmdary-color:#eddea4;
-    --accent1-color:#212529;
-    --accent1-color:#212529;
-    --heading-font:#'-',serif;
-    --paragraph-font:'-',serif;
 
-    --nav-background-color:#fb8500;
-    --nav-link-color:#004e98;
-    --nav-hover-link-color:#a8dadc;
-    --nav-hover-background-color:#e0e1dd;
-}
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-h1{
+
+h1 {
     text-align: center;
 }
-header{
+
+header {
     padding: 20px;
     text-align: center;
 }
-p{
+
+p {
     padding: 25px;
     color: white;
 }
-nav{
+
+nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-padding: 5px;
-margin-top: 0px;
-top: 0;
+    padding: 5px;
+    margin-top: 0px;
+    top: 0;
 
 }
-#nav{
+
+#nav {
     width: 100%;
     top: 0;
     height: 10px;
 }
-    nav a {
-        display: inline;
-        color: white;
-        text-decoration: none;
-        padding: 7rem;
-        margin-top: 0px;
-       
-    }
-    nav a:link, nav a:visited{
-        color: var(--nav-link-color);
-    }
-    nav a:hover{
-        color: var(--nav-hover-link-color);
-        /* background-color: var(--nav-hover-background-color); */
-    }
-    .images img{
-        width: 340px;
-        height: auto;
-        padding: 40px;
-        border: 5px solid #f7a072;
-        padding: 30px
-        
-    }
-    img{
-        width: 600px;
-        height: auto;
-    }
-    nav img{
-        width: 100px;      /* Adjust the width as needed */
-        height: 100px;     /* Height should be the same as width to make a perfect circle */
-        border-radius: 50%; /* This makes the element circular */
-        overflow: hidden;
-    }
-  .container{
-        background-color: var(--seconmdary-color);
-        width: 100%;
-        height: 500px;
-        margin-left: 0;
-        margin-right: 0;
-        position: relative;
-    }
-    .container img{
-        margin-left: 100px;
-        margin-top: 50px;
-    }
-    .overlay {
-        position: absolute;
-        top: 150px;
-        left: 600px;
-        right: 15px;
-        bottom: 0px;
-        width: 40%;
-        height: 200px;
-        background-color: gray; /* Semi-transparent white background */
-        color:white; /* Text color */
-        display: flex;
-        align-items: center; /* Centers content vertically */
-        justify-content: center; /* Centers content horizontally */
-        text-align: center;
-    }px
-.overlay p{
-    margin-bottom: 0px;
-   padding-top: 2px;
+
+nav a {
+    display: inline;
+    color: white;
+    text-decoration: none;
+    padding: 7rem;
+    margin-top: 0px;
+
 }
-   b{
-        color: white;
-        font-size: 25px;
-    }
-    footer{
-        margin-bottom: 0px;
 
-    }
-    .foot img{
-        float: right;
-        width: 25px;
-        height: auto;
-    }
-    .overlay a {
-        display: inline-block;
-        background-color: #f7a072; /* Accent color for the button */
-        color: white; /* White text on the button */
-        padding: 10px 20px; /* Padding inside the button */
-        text-decoration: none; /* Remove underline */
-        font-weight: bold; /* Bold text for emphasis */
-        border-radius: 5px; /* Rounded corners */
-        transition: background-color 0.3s ease; 
-        margin-bottom: 2px;
-    }
+nav a:link,
+nav a:visited {
+    color: var(--nav-link-color);
+}
 
-    .overlay a:hover {
-        background-color: #e58e62; /* Darker shade on hover */
-    }
-.name{
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    /* background-color: var(--nav-hover-background-color); */
+}
+
+.images img {
+    width: 340px;
+    height: auto;
+    padding: 40px;
+    border: 5px solid #f7a072;
+    padding: 30px
+}
+
+img {
+    width: 600px;
+    height: auto;
+}
+
+nav img {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Height should be the same as width to make a perfect circle */
+    border-radius: 50%;
+    /* This makes the element circular */
+    overflow: hidden;
+}
+
+.container {
+    background-color: var(--seconmdary-color);
+    width: 100%;
+    height: 500px;
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+}
+
+.container img {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    right: 15px;
+    bottom: 0px;
+    width: 40%;
+    height: 200px;
+    background-color: gray;
+    /* Semi-transparent white background */
+    color: white;
+    /* Text color */
+    display: flex;
+    align-items: center;
+    /* Centers content vertically */
+    justify-content: center;
+    /* Centers content horizontally */
+    text-align: center;
+}
+
+px .overlay p {
+    margin-bottom: 0px;
+    padding-top: 2px;
+}
+
+b {
+    color: white;
+    font-size: 25px;
+}
+
+footer {
+    margin-bottom: 0px;
+
+}
+
+.foot img {
+    float: right;
+    width: 25px;
+    height: auto;
+}
+
+.overlay a {
+    display: inline-block;
+    background-color: #f7a072;
+    /* Accent color for the button */
+    color: white;
+    /* White text on the button */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Bold text for emphasis */
+    border-radius: 5px;
+    /* Rounded corners */
+    transition: background-color 0.3s ease;
+    margin-bottom: 2px;
+}
+
+.overlay a:hover {
+    background-color: #e58e62;
+    /* Darker shade on hover */
+}
+
+.name {
     color: white;
     float: left;
 }
+
 .book-now-btn {
     padding: 10px 20px;
     font-size: 16px;
@@ -162,9 +206,11 @@ top: 0;
 .book-now-btn:hover {
     background-color: #0056b3;
 }
-.book-now-btn{
+
+.book-now-btn {
     text-align: center;
 }
-.foot p{
+
+.foot p {
     bottom: 0px;
 }

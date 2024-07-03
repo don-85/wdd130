@@ -1,17 +1,52 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-.hero p{
-color: black;
+
+:root {
+    --primary-color: #dee2e6;
+    --seconmdary-color: #eddea4;
+    --accent1-color: #212529;
+    --accent1-color: #212529;
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+
+    --nav-background-color: #fb8500;
+    --nav-link-color: #004e98;
+    --nav-hover-link-color: #a8dadc;
+    --nav-hover-background-color: #e0e1dd;
 }
-h1,h2{
+
+body {
+    font-family: var(--paragraph-font);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+}
+
+header, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero p {
+    color: black;
+}
+
+h1,
+h2 {
     padding: 5px;
     color: green;
 }
-p{
+
+p {
     padding: 0px;
-    
+
 }
-.sociallinks a img{
+
+.sociallinks a img {
     text-decoration: none;
     width: 25px;
     height: auto;
@@ -19,79 +54,62 @@ p{
     float: left;
     margin-left: 0%;
 }
-body{
-    width: 100%;
-}
-.hero{
+
+.hero {
     position: relative;
-    background-image: url(images/p1.jpg);
-   
-}
-.hero img{
-    display: block;
-    width: 22%;
-    height: auto;
-    float: right;
-
-}
-.hero h1{
-    position: absolute;
-}
-.hero article{
-    position: absolute;
-}
-article img{
-    width: 25px;
-    height: auto;
-    float: right;
 }
 
-article{
-    background-color:azure;
-    position: absolute;
+
+.hero img {
+    width: 100%;
+    height: auto;
+
 }
+
+.hero h1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    text-align: center;
+}
+
+.hero article {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    right:30px;
+    padding: 3em;
+}
+
+.hero article img {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+article {
+    background-color: rgba(177, 178, 184, 0.582);
+
+}
+
 header {
-    overflow: hidden; 
-    background-color: #f8f9fa; 
-    padding: 10px 20px; 
+    overflow: hidden;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
 }
 
 header img {
     float: left;
-    height: auto; 
-    padding-right: 20px; 
-    padding-left:50px ;
+    height: auto;
+    padding-right: 20px;
+    padding-left: 50px;
 }
 
-nav {
-    float: right; 
-}
 
-nav a {
-    margin-left: 200px;
-    text-decoration: none; 
-    color: #333; 
-}
 
-nav a:hover {
-    color: #0056b3;
-}
-h1{
-    position: absolute;
-}
-section{
-    margin-top: 200px;
-}
-section img{
-    width: 400px;
-    margin-top: 20px;
-}
-footer img{
+.sociallinks img {
     padding: 5px;
-    float: left;
     margin-left: 0px;
-}
-header img{
-    width: 100px;; 
-    height:auto;
+    width: 60px;
 }
