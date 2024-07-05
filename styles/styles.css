@@ -1,4 +1,9 @@
 /* Class Selectors */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Rule for the main content area */
 main {
@@ -6,17 +11,14 @@ main {
 }
 
 /* Rule for the aside section */
-aside {
+
+aside{
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid;
-    /* Specific style set to solid */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
+
 
 /* Rule for images within the aside section */
 aside img {
@@ -35,32 +37,28 @@ main{
     grid-column: 2/3;
     margin: 1rem;
 }
-aside{
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
+
 
 aside h2 {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: 15px;
+    left: 50%;
     color: #fff;
+    transform: translate(-50%);
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+aside img{
+    width: 100%;
 }
 
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 1);
-    padding: 1rem;
+    padding: 1rem 2rem;
     background-color: #ddd;
     color: #000;
 }
+
+
 
 /* Enhanced Rule for paragraphs */
 p {
