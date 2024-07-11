@@ -97,6 +97,7 @@ header {
     overflow: hidden;
     background-color: #f8f9fa;
     padding: 10px 20px;
+    display: grid;
 }
 
 header img {
@@ -112,4 +113,10 @@ header img {
     padding: 5px;
     margin-left: 0px;
     width: 60px;
+}
+nav{
+    display: flex;
+}
+.sociallinks{
+    float: right;
 }
