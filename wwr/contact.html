@@ -55,8 +55,8 @@
         
             <label>Purpose of Message:</label>
             <div class="radio-group">
-              <label><input type="radio" name="purpose" value="General Inquiry" required> General Inquiry</label>
-              <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+              <label><input type="radio" name="purpose" id="purpose" value="General Inquiry" required> General Inquiry</label>
+              <label><input type="radio" name="purpose" id="purpose" value="Reservation Question"> Reservation Question</label>
               <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
             </div>
         
@@ -64,10 +64,10 @@
             <textarea id="message" name="message" rows="5" required></textarea>
         
             <div class="checkbox-group">
-              <label><input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter</label>
+              <label><input type="checkbox" name="newsletter" id="newsletter"> Please subscribe me to the monthly newsletter</label>
             </div>
             <div class="button-container">
-            <button type="submit" class="submit-btn">Send Message</button>
+            <button type="submit" class="submit-btn" id="submit">Send Message</button>
             </div>
           </form>
        </div>
