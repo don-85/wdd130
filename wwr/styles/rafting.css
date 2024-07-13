@@ -14,10 +14,27 @@
     --nav-hover-background-color: #e0e1dd;
 }
 
-body {
+/* body {
     font-family: var(--paragraph-font);
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    border: 2px;
+    border-color: #212529;
+    width: 95%;
+    align-items: center;
+    background-color: #eddea4;
+} */
+.body-container {
+  font-family: var(--paragraph-font);
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  border: 2px;
+  border-color: #212529;
+  width: 95%;
+  align-items: center;
+  background-color: #eddea4;
+  margin-right: 10px;
 }
-
 h1,
 h2,
 h3,
@@ -119,4 +136,151 @@ nav{
 }
 .sociallinks{
     float: right;
+}
+.happy{
+width: 380px;
+height: 380px;
+border: #212529;
+padding: 5px;
+align-items: center;
+}
+.happy h2{
+  align-items: center;
+}
+body {
+   
+  }
+  form {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+   textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input[type="text"], input[type="email"]{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 10px;
+  }
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .radio-group {
+    margin-bottom: 20px;
+  }
+  .radio-group label {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .checkbox-group {
+    margin-bottom: 20px;
+  }
+  .submit-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50; /* Green background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+  }
+  .submit-btn:hover {
+    background-color: #45a049;
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  iframe{
+    width: 100%;
+  }
+  /* General styling for the header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: blue;
+}
+
+/* Style for the logo */
+header img {
+  max-height: 60px; /* Adjust logo size */
+}
+
+/* Container for navigation links */
+.nav-container {
+  display: flex;
+}
+
+/* Style for navigation links */
+.nav-container a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 20px;
+  text-align: center;
+  font-size: 17px;
+}
+
+/* Change color on hover */
+.nav-container a:hover {
+  background-color: #ddd;
+  color:blue;
+}
+
+/* Active/current link */
+.nav-container a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+/* General styling for the section */
+section {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background color */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 100%; /* Max width */
+  margin: 20px auto; /* Center the section */
+}
+
+/* Styling for the unordered list */
+section ul {
+  list-style-type: none; /* Remove default list styling */
+  padding: 0;
+}
+
+/* Styling for the list items */
+section ul li {
+  font-size: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd; /* Light border between items */
+}
+
+/* Remove border from the last list item */
+section ul li:last-child {
+  border-bottom: none;
 }
