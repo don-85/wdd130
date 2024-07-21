@@ -1,39 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --primary-color: #dee2e6;
-    --seconmdary-color: #eddea4;
-    --accent1-color: #212529;
-    --accent1-color: #212529;
-    --heading-font: 'Roboto', sans-serif;
-    --paragraph-font: 'Roboto', sans-serif;
+  --primary-color: #dee2e6;
+  --secondary-color: #eddea4; /* Corrected typo */
+  --accent1-color: #212529; /* Removed duplicate */
+  --heading-font: 'Roboto', sans-serif;
+  --paragraph-font: 'Roboto', sans-serif;
 
-    --nav-background-color: #fb8500;
-    --nav-link-color: #004e98;
-    --nav-hover-link-color: #a8dadc;
-    --nav-hover-background-color: #e0e1dd;
+  --nav-background-color: #fb8500;
+  --nav-link-color: #004e98;
+  --nav-hover-link-color: #a8dadc;
+  --nav-hover-background-color: #e0e1dd;
 }
 
-/* body {
-    font-family: var(--paragraph-font);
-    font-family: Arial, sans-serif;
-    margin: 10px;
-    border: 2px;
-    border-color: #212529;
-    width: 95%;
-    align-items: center;
-    background-color: #eddea4;
-} */
 .body-container {
-  font-family: var(--paragraph-font);
-  font-family: Arial, sans-serif;
-  margin: 10px;
-  border: 2px;
-  border-color: #212529;
-  width: 95%;
-  align-items: center;
-  background-color: #eddea4;
-  margin-right: 10px;
+font-family: var(--paragraph-font);
+margin: 10px;
+border: 2px solid #212529; /* Added 'solid' for clarity */
+width: 95%;
+align-items: center;
+background-color: #eddea4;
+margin-right: 10px;
 }
 h1,
 h2,
@@ -286,7 +273,7 @@ nav a:hover {
   background-color: #555; /* lighter background on hover */
 }
 .sociallinks a{
-  color: white; /* white text color */
+  color: blueviolet; /* white text color */
   /* padding: 10px 20px;  */
   text-decoration: none; /* remove underline from links */
   font-size: 18px; /* increase font size */
