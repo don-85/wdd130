@@ -1,0 +1,104 @@
+body{
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+        font-family: Arial, sans-serif;
+      
+}
+label{
+  display: block;
+  margin-bottom: 8px;
+}
+h1{
+    text-align: center;
+    color: #004e89;
+}
+form{
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 500px;
+    background-color:#ced4da;
+    margin-top: 20px;
+
+}
+span{
+    margin-left: 30%;
+}
+ input[type="text"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  textarea{
+    width: 100%;
+    height: 100px;
+  }
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #004e89;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+button:hover {
+    background-color: #0056b3;
+  }
+/* .container {
+    width: 550px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color:#ced4da;
+    margin-top: 20px;
+   
+  } */
+  .number {
+    background-color: black;
+    align-items: center;
+    max-width: 100px;
+    height: 20px;
+    margin-left: 5%;
+    color: black;
+    margin-bottom: 10px;
+  }
+  .number input{
+    background-color: black;
+    color: white;
+    height: 30px;
+    width: 400px;
+  }
+  .question-number{
+    margin: 0;
+    color: #004e89;
+    font-size: 20px;
+  }
+  .title-container {
+    display: flex;
+    align-items: center; /* Vertically center the checkbox and h1 */
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .title-checkbox {
+    margin-right: 10px; /* Space between the checkbox and the h1 */
+    color: black;
+  }
+  
+  h1 {
+    margin: 0; /* Remove default margin to tighten spacing */
+    text-align: center;
+  }
+  
+  /* Optionally, you can still toggle visibility if needed */
+  #toggleH1:checked ~ .container #mainTitle {
+    display: none;
+  }

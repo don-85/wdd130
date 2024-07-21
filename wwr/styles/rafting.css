@@ -48,6 +48,9 @@ header, main, footer {
     max-width: 1200px;
     margin: 0 auto;
 }
+h2{
+  color: forestgreen;
+}
 .hero p {
     color: black;
 }
@@ -56,6 +59,10 @@ h1,
 h2 {
     padding: 5px;
     color: green;
+}
+h1{
+  align-items: center;
+  align-content: center;
 }
 
 p {
@@ -70,6 +77,11 @@ p {
     padding: 5px;
     float: left;
     margin-left: 0%;
+    margin-bottom: 30px;
+    
+}
+.sociallinks{
+  margin-bottom: 0px;
 }
 
 .hero {
@@ -226,7 +238,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: blue;
+  background-color: #f4a261;
 }
 
 /* Style for the logo */
@@ -259,6 +271,26 @@ header img {
   background-color: #4CAF50;
   color: white;
 }
+nav {
+  /* dark background for the nav bar */
+  text-align: center; /* center the links */
+  padding: 10px 0; /* padding above and below links */
+}
+nav a {
+  color: white; /* white text color */
+  padding: 10px 20px; /* padding around the text */
+  text-decoration: none; /* remove underline from links */
+  font-size: 18px; /* increase font size */
+}
+nav a:hover {
+  background-color: #555; /* lighter background on hover */
+}
+.sociallinks a{
+  color: white; /* white text color */
+  /* padding: 10px 20px;  */
+  text-decoration: none; /* remove underline from links */
+  font-size: 18px; /* increase font size */
+}
 /* General styling for the section */
 section {
   padding: 20px;
@@ -285,4 +317,44 @@ section ul li {
 /* Remove border from the last list item */
 section ul li:last-child {
   border-bottom: none;
+}
+.trip {
+  background: #e5e5e5;
+  margin: 1em 0;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+.trip h2 {
+  margin: 0;
+  color: forestgreen;
+}
+.trip p {
+  color: #666;
+}
+.trip img {
+  width: 40%;
+  border-radius: 8px;
+}
+.trip .details {
+  margin-top: 1em;
+}
+.trips-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+.header{
+  align-items: center;
+}
+.body{
+  background:#edf6f9;
+  margin:0;
+  width: 95%;
+  display: block;
+}
+footer{
+ margin-bottom: 0%;
+  color: none;
 }
