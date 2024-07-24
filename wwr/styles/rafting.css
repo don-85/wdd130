@@ -25,7 +25,23 @@
 body {
   font-family: var(--paragraph-font);
 }
-
+.header a{
+  float:right;
+  text-decoration: none;
+  font-size: 35px;
+  margin-top: 0px;
+  color: #45a049;
+}
+th {
+  background-color: #4CAF50; /* Dark green background for headers */
+  /* color: white; */
+}
+td {
+  background-color: #edede9; /* Light grey background for table cells */
+}
+tr:nth-child(even) td {
+  background-color:#a8dadc; /* Slightly darker grey for even rows */
+}
 img {
   width: 100%;
 }
