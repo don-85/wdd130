@@ -185,3 +185,30 @@ h1 {
     text-align: center;
     /* Center-aligned */
 }
+/* Enhanced footer and social links styling */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.sociallinks img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.copyright {
+    flex-grow: 1;
+    text-align: left;
+}
