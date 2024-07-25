@@ -2,78 +2,78 @@ body{
     background-image:url(images/rafting1.jpg)
 }
 .sect {
-    display: flex;            /* Aligns children (img) in a row */
-    justify-content: center;  /* Centers images horizontally */
-    align-items: center;      /* Centers images vertically */
-    gap: 20px;        /* Adds space between images */
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    gap: 20px;        
 }
 .container {
     display: flex;
-    justify-content: space-around; /* Distributes space between and around content items */
-    align-items: center; /* Vertically centers the items in the container */
+    justify-content: space-around; 
+    align-items: center; 
     margin-bottom: 250px;
 }
 
 
 .sect img {
-    width: 70%;               /* Each image will take up roughly one third of the section's width */
+    width: 70%;               
     gap: 20px;  
-    border: 5px solid #000;  /* Adds a solid black border of 5px thickness */
-    padding:10 px;           /* Optional: adds space between the border and the image */
-    box-shadow: 0 0 10px #888           /* Keeps the aspect ratio of the images */
+    border: 5px solid #000;  
+    padding:10 px;           
+    box-shadow: 0 0 10px #888           
 }
 .fa {
-    margin-top: 500px; /* Space above the icon */
+    margin-top: 500px; 
     margin-bottom: 5px;
     color:#FFA500
-    /* Space below the icon before the text */
+    
 }
 span {
     margin-top: 500px; 
     color: #FFA500;
-    font-size: larger;/* Space above the text to separate it from the icon */
+    font-size: larger;
 }
 form{
     display: block;
     width: 80%;
 }
 .review {
-    position: relative; /* Establishes a positioning context for the absolute positioned child */
-    display: inline-block; /* Allows the section to fit the size of the image and note */
-    width: auto; /* Width should be auto to fit the content, can be adjusted as needed */
+    position: relative; 
+    display: inline-block; 
+    width: auto; 
     background-color: antiquewhite;
     width: 100%;
     height: 60%;
 }
 
 .review img {
-    display: block; /* Ensures the image takes up the full width of its container */
-    width: 50%; /* Sets image width to 100% of its parent */
-    height: auto; /* Maintains image aspect ratio */
+    display: block; 
+    width: 50%; 
+    height: auto; 
     margin-left: 150px;
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
 .note {
-    position: absolute; /* Positions the note relative to its nearest positioned ancestor */
-    top: 100px; /* Aligns the top of the div to the top of the section */
-    left: 0; /* Aligns the left of the div to the left of the section */
-    width: 40%; /* Stretches the note to cover the full width of the section */
-    height: 40%; /* Stretches the note to cover the full height of the section */
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    color: white; /* White text color */
+    position: absolute; 
+    top: 100px; 
+    left: 0; 
+    width: 40%; 
+    height: 40%; 
+    background: rgba(0, 0, 0, 0.5); 
+    color: white; 
     display: flex;
-    align-items: center; /* Centers content vertically */
-    justify-content: center; /* Centers content horizontally */
-    padding: 15px; /* Padding inside the note */
+    align-items: center; 
+    justify-content: center; 
+    padding: 15px; 
     box-sizing: border-box;
-    margin-left: 500px; /* Includes padding and border in the element's total width and height */
+    margin-left: 500px; 
 }
 
 .note p {
-    margin: 0; /* Removes default margin from paragraph */
-    font-size: 1.5rem; /* Sets font size, adjust as needed */
+    margin: 0; 
+    font-size: 1.5rem; 
 }
 
 body {
