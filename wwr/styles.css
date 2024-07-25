@@ -1,0 +1,209 @@
+body{
+    background-image:url(images/rafting1.jpg)
+}
+.sect {
+    display: flex;            /* Aligns children (img) in a row */
+    justify-content: center;  /* Centers images horizontally */
+    align-items: center;      /* Centers images vertically */
+    gap: 20px;        /* Adds space between images */
+}
+.container {
+    display: flex;
+    justify-content: space-around; /* Distributes space between and around content items */
+    align-items: center; /* Vertically centers the items in the container */
+    margin-bottom: 250px;
+}
+
+
+.sect img {
+    width: 70%;               /* Each image will take up roughly one third of the section's width */
+    gap: 20px;  
+    border: 5px solid #000;  /* Adds a solid black border of 5px thickness */
+    padding:10 px;           /* Optional: adds space between the border and the image */
+    box-shadow: 0 0 10px #888           /* Keeps the aspect ratio of the images */
+}
+.fa {
+    margin-top: 500px; /* Space above the icon */
+    margin-bottom: 5px;
+    color:#FFA500
+    /* Space below the icon before the text */
+}
+span {
+    margin-top: 500px; 
+    color: #FFA500;
+    font-size: larger;/* Space above the text to separate it from the icon */
+}
+form{
+    display: block;
+    width: 80%;
+}
+.review {
+    position: relative; /* Establishes a positioning context for the absolute positioned child */
+    display: inline-block; /* Allows the section to fit the size of the image and note */
+    width: auto; /* Width should be auto to fit the content, can be adjusted as needed */
+    background-color: antiquewhite;
+    width: 100%;
+    height: 60%;
+}
+
+.review img {
+    display: block; /* Ensures the image takes up the full width of its container */
+    width: 50%; /* Sets image width to 100% of its parent */
+    height: auto; /* Maintains image aspect ratio */
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.note {
+    position: absolute; /* Positions the note relative to its nearest positioned ancestor */
+    top: 100px; /* Aligns the top of the div to the top of the section */
+    left: 0; /* Aligns the left of the div to the left of the section */
+    width: 40%; /* Stretches the note to cover the full width of the section */
+    height: 40%; /* Stretches the note to cover the full height of the section */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: white; /* White text color */
+    display: flex;
+    align-items: center; /* Centers content vertically */
+    justify-content: center; /* Centers content horizontally */
+    padding: 15px; /* Padding inside the note */
+    box-sizing: border-box;
+    margin-left: 500px; /* Includes padding and border in the element's total width and height */
+}
+
+.note p {
+    margin: 0; /* Removes default margin from paragraph */
+    font-size: 1.5rem; /* Sets font size, adjust as needed */
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color:;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+nav a:hover {
+    background-color: #e69500;
+    color: white;
+}
+
+main {
+    text-align: center;
+    /* padding: 60px 20px 20px; */
+    background: url('images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin-top: 70px;
+}
+
+main h1 {
+    font-size: 2.5em;
+    color: #ffd700;
+}
+
+main p {
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #ffa500;
+    color: rgba(233, 118, 11, 0.938);
+    border: none;
+    padding: 15px 30px;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+.newsletter {
+    background-color: grey;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"],
+.newsletter button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #FFA500;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    width: 100%;
+    clear: both;
+}
+
+.sociallinks a {
+    
+    float: right;
+}
+
+.sociallinks img {
+    width: 24px;
+    height: auto;
+    float: right;
+    float: right;
+}
+
+@media (max-width: 768px) {
+
+    header,
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+}

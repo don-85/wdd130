@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RapidStream Adventures</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,21 +21,48 @@
     <main>
         <h1>Have An Adventure</h1>
         <p>Make Memories with Every Oar</p>
-        <img src="images/rock.jpg" alt="Grand Canyon Rafting">
-        <button onclick="location.href='booking.html'">Book Now</button>
-
-        <!-- Newsletter Signup Form -->
-        <section class="newsletter">
-            <h2>Sign Up for Our Newsletter</h2>
-            <form action="subscribe.php" method="post">
-                <input type="text" name="name" placeholder="Your Name" required>
-                <input type="email" name="email" placeholder="Your Email" required>
-                <button type="submit">Subscribe</button>
-            </form>
+        <section class="container">
+        <section class="sect">
+        <img src="images/p4.jpg" alt="Grand Canyon Rafting">
+        <i class="fa fa-tree"></i><span>river</span>
         </section>
+    <section class="sect">
+    <img src="images/rock.jpg" alt="Grand Canyon Rafting">
+    <i class="fa fa-water"></i><span>camping</span>
+    </section>
+<section class="sect">
+<img src="images/colod.jpg" alt="Grand Canyon Rafting">
+<i class="fa fa-mountain"></i><span>rapids</span>
+    </section>
+    </section>
+
+    <section class="review">
+        <img src="images/snake.jpg" alt="Grand Canyon Rafting">
+        <div class="note">
+            <p>Explore the beauty of the Grand Canyon with RapidStream Adventures.</p>
+        </div> 
+    </section>
+        <section class="newsletter">
+            <button onclick="location.href='booking.html'">Book Now</button>
+    
+            <!-- Newsletter Signup Form -->
+          
+                <h2>Sign Up for Our Newsletter</h2>
+                <form action="subscribe.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+           
+    </section>
     </main>
     <footer>
         <p>&copy; 2024 RapidStream Adventures</p>
+        <nav class="sociallinks">
+            <a href="https://x.com" target="_blank"><img src="images/x.jpeg" alt="X Platform"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://app.moqups.com/3OTJvW0xG3dyqyxltkvloeacJMJLuWih/view/page/ad64222d5">Home page Wireframe</a>
+        </nav>
     </footer>
 </body>
 </html>
