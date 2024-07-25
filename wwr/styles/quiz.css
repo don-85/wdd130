@@ -82,23 +82,23 @@ button:hover {
   }
   .title-container {
     display: flex;
-    align-items: center; /* Vertically center the checkbox and h1 */
+    align-items: center;
     justify-content: center;
     width: 100%;
     margin-top: 20px;
   }
   
   .title-checkbox {
-    margin-right: 10px; /* Space between the checkbox and the h1 */
+    margin-right: 10px;
     color: black;
   }
   
   h1 {
-    margin: 0; /* Remove default margin to tighten spacing */
+    margin: 0;
     text-align: center;
   }
   
-  /* Optionally, you can still toggle visibility if needed */
+
   #toggleH1:checked ~ .container #mainTitle {
     display: none;
   }
