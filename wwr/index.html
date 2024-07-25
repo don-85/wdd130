@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RapidStream Adventures</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
 
-    <link rel="stylesheet" href="rafting1.css">
-</head>es.css
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
 <body>
     <header>
         <img src="images/logo.webp" alt="RapidStream Adventures Logo">
@@ -19,50 +21,67 @@
         </nav>
     </header>
     <main>
-        <h1>Have An Adventure</h1>
-        <p>Make Memories with Every Oar</p>
-        <section class="container">
-        <section class="sect">
-        <img src="images/p4.jpg" alt="Grand Canyon Rafting">
-        <i class="fa fa-tree"></i><span>river</span>
-        </section>
-    <section class="sect">
-    <img src="images/rock.jpg" alt="Grand Canyon Rafting">
-    <i class="fa fa-water"></i><span>camping</span>
-    </section>
-<section class="sect">
-<img src="images/colod.jpg" alt="Grand Canyon Rafting">
-<i class="fa fa-mountain"></i><span>rapids</span>
-    </section>
-    </section>
+        <div class="hero">
+            <img src="images/snake.jpg" alt="Snake River">
+            <h1>Have An Adventure</h1>
+            <a href="trips.html" class="hero-cta button">See our Trips</a>
+        </div>
 
-    <section class="review">
-        <img src="images/snake.jpg" alt="Grand Canyon Rafting">
-        <div class="note">
-            <p>Explore the beauty of the Grand Canyon with RapidStream Adventures.</p>
-        </div> 
-    </section>
+        
+        <section class="container">
+            <h2>Make Memories with Every Oar</h2>
+            <section class="sect">
+                
+                    <img src="images/p4.jpg" alt="Grand Canyon Rafting">
+                    <img src="images/river_icon.png" alt="River Icon" class="icon">
+                    <h2>River</h2>
+               
+            </section>
+            <section class="sect">
+               
+                    <img src="images/rock.jpg" alt="Grand Canyon Rafting">
+                    <img src="images/fire_icon.png" alt="Fire icon" class="icon">
+                    <h2>Camping</h2>
+               
+            </section>
+            <section class="sect">
+                
+                    <img src="images/colod.jpg" alt="Grand Canyon Rafting">
+                    <img src="images/oars.png" alt="oar icon" class="icon">
+                    <h2>Rapids</h2>
+               
+            </section>
+        </section>
+
+        <section class="review">
+            <img src="images/snake.jpg" alt="Grand Canyon Rafting">
+            <div class="note">
+                <p>Explore the beauty of the Grand Canyon with RapidStream Adventures.</p>
+            </div>
+        </section>
         <section class="newsletter">
-            <button onclick="location.href='booking.html'">Book Now</button>
-    
-            <!-- Newsletter Signup Form -->
           
-                <h2>Sign Up for Our Newsletter</h2>
-                <form action="subscribe.php" method="post">
-                    <input type="text" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <button type="submit">Subscribe</button>
-                </form>
-           
-    </section>
+
+            <!-- Newsletter Signup Form -->
+
+            <h2>Sign Up for Our Newsletter</h2>
+            <form action="subscribe.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+
+        </section>
     </main>
     <footer>
         <p>&copy; 2024 RapidStream Adventures</p>
+        <a href="https://app.moqups.com/3OTJvW0xG3dyqyxltkvloeacJMJLuWih/view/page/ad64222d5"  class="wireframe">Wireframe</a>
         <nav class="sociallinks">
             <a href="https://x.com" target="_blank"><img src="images/x.jpeg" alt="X Platform"></a>
             <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
-            <a href="https://app.moqups.com/3OTJvW0xG3dyqyxltkvloeacJMJLuWih/view/page/ad64222d5">Home page Wireframe</a>
+           
         </nav>
     </footer>
 </body>
+
 </html>
