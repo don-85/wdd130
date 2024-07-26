@@ -537,6 +537,16 @@ button, .button {
   cursor: pointer;
   transition: background-color 0.3s;
 }
+button{
+  background-color: #816a05;
+  color: rgba(238, 237, 236, 0.938);
+  border: none;
+  padding: 15px 30px;
+  font-size: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
 button:hover {
   background-color: #ff4500;
